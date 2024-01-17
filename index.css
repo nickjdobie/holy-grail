@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 5px black;
+}
+body {
+    display: flex;
+    color: blue
+    flex-direction: column;
+}
+header {
+    width: 100rem;
+    display: flex
+    background-color: green;
+}
+
+main {
+     display: flex;
+     align-items: center;
+     flex-direction: row;
+     bakcground-color: yellow;
+
+}
+nav {
+    border: 5px black;
+    align-items:left;
+    bakcground-color: yellow;
+}
+article {
+    width: 100
+    border: 5px black;
+    align-items: center;
+}
+aside {
+    align-items: right;
+}
+footer {
+    width: 100rem;
+    height: 6rem;
+    border: 5px;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+}
